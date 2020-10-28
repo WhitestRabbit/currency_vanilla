@@ -1,0 +1,32 @@
+body {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.3rem;
+    background: #333;
+    color: #f4f4f4;
+}
+
+button {
+    font-family: 'Syne Mono', monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: rgb(62, 10, 88);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: transform 250ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+img {
+    width: 30%;
+    border-radius: 15px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
