@@ -9,8 +9,7 @@ button {
     font-family: 'Syne Mono', monospace;
     font-size: 1.2rem;
     cursor: pointer;
-    background: rgb(62, 10, 88);
-    color: #fff;
+    background: aqua;
     border: 0;
     border-radius: 10px;
     padding: 10px 15px;
@@ -29,4 +28,18 @@ img {
 .container {
     display: grid;
     place-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 800;
+    color: aqua;
 }
