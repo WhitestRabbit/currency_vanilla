@@ -13,8 +13,8 @@ function getRates(e) {
     .then(res => res.json()) // the response of the request is converted into a JSON and passed into the parameters of the next callback
     .then(data => { 
         // converting the keys and values of 'currencies' into arrays with respective names
-        keys = Object.keys(data.currencies);
-        values = Object.values(data.currencies);
+        let keys = Object.keys(data.currencies);
+        let values = Object.values(data.currencies);
         // a random number is picked within the range of 0 to the length of the keys array, which is essentially the maximum number of currencies we have retrieved from the API
         const index = Math.ceil(Math.random()*keys.length);
         // passing the appropriate data as the results parameter of the next callback
